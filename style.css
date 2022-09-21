@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    color: black;
+
+}
+
+:root {
+    --dt-padding: 10px;
+    --dt-padding-s: 6px;
+    --dt-padding-xs: 2px;
+}
+
+.material-symbols-outlined {
+    font-size: 40px;
+    color: black;
+}
+
+.datatable-countainer {
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 150px;
+
+}
+
+thead {
+    background-color: rgb(219, 219, 219);
+    width: 100%;
+}
+
+.datatable-countainer .datatable {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+
+.datatable-countainer .datatable,
+.datatable-countainer .datatable th,
+.datatable-countainer .datatable td {
+    padding: var(--dt-padding) var(--dt-padding);
+}
+
+.datatable-countainer .datatable td {
+    border-bottom: solid 1px white;
+
+}
+
+.datatable-countainer .datatable tr {
+    border: solid 1px gray;
+    border-bottom: solid 2px #dadada;
+    
+
+
+}
+
+.user {
+    background-color: rgba(255, 0, 0, 0.144);
+}
+
+
+button {
+    background-color: white;
+    border: none;
+
+}
+
+.button-delete :hover {
+    background-color: rgba(255, 0, 0, 0.616);
+    border-radius: 5px;
+}
+
+.button-edit :hover {
+    background-color: rgba(81, 81, 255, 0.658);
+    border-radius: 5px;
+}
+
+.button-block :hover {
+    background-color: rgba(255, 255, 0, 0.664);
+    border-radius: 5px;
+}
+
+.datatable-countainer .datatable th {
+    text-align: left;
+
+}
+
+.user-search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 35px;
+    font-weight: bold;
+    font-size: 25px;
+    width: 90%;
+    padding-top: 25px;
+    position: relative;
+}
+
+.user-list {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+    left: 1rem;
+    top: 1rem;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    width: 100%;
+    height: 4.5rem;
+    background-color: #1c374d;
+
+
+}
+
+.user-home {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    color: black;
+    width: 15rem;
+    height: 2rem;
+    border-radius: 4px;
+    padding: 1rem 2rem;
+
+}
+
+body {
+    background: url(./wallpaperbetter\ 1.png);
+}
+
+input {
+    background: url(./search_FILL0_wght400_GRAD0_opsz48.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    border: 1px solid #dadada;
+
+
+}
+
+input:focus{
+    outline: none;
+}
